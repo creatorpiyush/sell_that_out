@@ -1,0 +1,22 @@
+body {
+    background-color: wheat;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+/* .bg-light {
+    background-color: #ec87059e
+} */
+
+#footer {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    position: sticky;
+    bottom: 0px;
+    background-color: var(--light);
+}

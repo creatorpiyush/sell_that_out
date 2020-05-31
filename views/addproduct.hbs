@@ -1,0 +1,28 @@
+<center>
+    <form action="/addproduct" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Product Name</label>
+            <input type="text" class="form-control" name="itemname" aria-describedby="emailHelp"><br>
+        </div>
+        <br>
+
+        <div class="custom-file">
+            <label class="custom-file-label">Product Image</label>
+            <input type="file" class="custom-file-input" id="customFile" name="itemimg">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="">Set A Price</label>
+            <input type="number" class="form-control" name="price">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label>Contact Details</label>
+            <textarea class="form-control" aria-label="With textarea" name="contact"></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</center>
