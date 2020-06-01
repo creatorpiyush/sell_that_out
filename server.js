@@ -45,8 +45,8 @@ app.post('/addproduct', upload.single('itemimg'), async(req, res) => {
     console.log('req.body', req.body)
     console.log('req.file', req.file)
 
-    const oldPath = '/uploads/' + req.file.filename
-    const newPath = '/images/' + 'itemimg_' + req.body.itemname + '.' + req.file.mimetype.split('/').pop()
+    const oldPath = 'uploads/' + req.file.filename
+    const newPath = 'images/' + 'itemimg_' + req.body.itemname + '.' + req.file.mimetype.split('/').pop()
 
     await fs.rename(oldPath, newPath)
 
