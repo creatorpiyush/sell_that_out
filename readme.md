@@ -5,15 +5,25 @@
 
 > USED TO BUY AND SELL OLD PRODUCTS
 
+### Setup
+```
+npm init
+npm install 
+npm start
+```
+Open in Browser ```http://localhost:5555/```
 
+## Project Structure
 ```
 
-db
+db                      # db connection and model definitions
+
 ├── content.db
 └── db.js
 
 
-public
+public                  # html/js/css files for static part of site
+
 ├── app
 │   ├── allcontent.js
 │   ├── common.css
@@ -34,7 +44,7 @@ public
     └── popper.js
 
 
-views
+views                   # hbs files for rendering
 ├── addproduct.hbs
 └── index.hbs
 
