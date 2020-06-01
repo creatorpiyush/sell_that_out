@@ -1,9 +1,27 @@
 const Sequelize = require('sequelize');
 
-const db = new Sequelize({
-    dialect: 'sqlite',
-    storage: __dirname + '/content.db'
-})
+let db
+
+if (process.env.DATABASE_URL) {
+    db = new Sequelize(process.env.DATABASE_URL)
+} else {
+    db = new Sequelize({
+        dialect: 'sqlite',
+        storage: __dirname + '/content.db'
+    })
+}
+
+// or
+// const db = new Sequelize({
+//     dialect: 'postgess',
+//     database: 'd83d1m6unuhcvj',
+//     username: 'pmanbxcodxtbcg',
+//     password: 'e028930f57f18177bf496074da352c2b9b65c1ee71cdaaf30674c6fac3aee39c',
+//     host: 'ec2-34-195-169-25.compute-1.amazonaws.com',
+
+//     // 
+
+// })
 
 // connection test command
 // db.authenticate()
