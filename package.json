@@ -9,6 +9,7 @@
   "author": "PIYUSH ANAND",
   "license": "ISC",
   "dependencies": {
+    "@coding-blocks/bootstrap": "^4.5.2",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "hbs": "^4.1.1",
