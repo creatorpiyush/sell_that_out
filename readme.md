@@ -7,7 +7,7 @@
 
 
 
-### Setup
+## Setup
 ```
 npm init
 npm install 
