@@ -1,9 +1,11 @@
  # SELL THAT OUT 
+ > USED TO BUY AND SELL OLD PRODUCTS
+
   [Site Link: https://sell-that-out.herokuapp.com/
 ](https://sell-that-out.herokuapp.com/
 )
 
-> USED TO BUY AND SELL OLD PRODUCTS
+
 
 ### Setup
 ```
