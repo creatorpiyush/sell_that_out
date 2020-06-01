@@ -54,7 +54,7 @@ const Products = db.define('product', {
     },
 
     contact: {
-        type: Sequelize.DataTypes.INTEGER,
+        type: Sequelize.DataTypes.STRING,
         allowNull: false
     }
 
