@@ -19,13 +19,11 @@ Open in Browser ```http://localhost:5555/```
 ```
 
 db                      # db connection and model definitions
-
 ├── content.db
 └── db.js
 
 
 public                  # html/js/css files for static part of site
-
 ├── app
 │   ├── allcontent.js
 │   ├── common.css
