@@ -84,7 +84,7 @@ app.post("/signup", async (req, res) => {
     email: req.body.email,
   });
 
-  res.status(201).send(`User ${user.id} created`);
+  res.status(201).redirect("/login");
 });
 
 app.get("/login", (req, res) => {
