@@ -1,7 +1,8 @@
 function loadProducts() {
-    $.get('/content', (product) => {
-        for (let p of product) {
-            $('#posts-container').append($(`
+  $.get("/content", (product) => {
+    for (let p of product) {
+      $("#posts-container").append(
+        $(`
     
     <div class="card-body">
         <img style="width: 17.25rem; height: 17.5rem;" class="card-img-top" src="../../${p.itemimg}" alt="Card image cap">
@@ -19,7 +20,8 @@ function loadProducts() {
         </center>
     </div>
     
-`))
-        }
-    })
+`)
+      );
+    }
+  });
 }
