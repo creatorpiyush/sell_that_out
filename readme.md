@@ -4,8 +4,14 @@
 
 [Site Link: https://sell-that-out.herokuapp.com/
 ](https://sell-that-out.herokuapp.com/)
-S
+
 ## Screen Shorts
+
+### Main Screen
+
+![alt text](./readme_ss/two.png)
+
+### Adding Items
 
 ![alt text](./readme_ss/one.png)
 
