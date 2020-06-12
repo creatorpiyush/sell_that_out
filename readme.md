@@ -1,21 +1,26 @@
- # SELL THAT OUT 
- > USED TO BUY AND SELL OLD PRODUCTS
+# SELL THAT OUT
 
-  [Site Link: https://sell-that-out.herokuapp.com/
-](https://sell-that-out.herokuapp.com/
-)
+> USED TO BUY AND SELL OLD PRODUCTS
 
+[Site Link: https://sell-that-out.herokuapp.com/
+](https://sell-that-out.herokuapp.com/)
+S
+## Screen Shorts
 
+![alt text](./readme_ss/one.png)
 
 ## Setup
+
 ```
 npm init
-npm install 
+npm install
 npm start
 ```
-Open in Browser ```http://localhost:5555/```
+
+Open in Browser `http://localhost:5555/`
 
 ## Project Structure
+
 ```
 
 db                      # db connection and model definitions
@@ -50,5 +55,5 @@ views                   # hbs files for rendering
 
 ```
 
-> Developed and Maintained 
+> Developed and Maintained
 > By PIYUSH ANAND
